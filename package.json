@@ -1,0 +1,50 @@
+{
+	"author": {
+		"name": "Baptiste Pillot",
+		"email": "baptiste@pillot.fr"
+	},
+	"dependencies": {
+		"@itrocks/class-type": "latest",
+		"@itrocks/decorator": "latest"
+	},
+	"description": "Identify classes containing collections of objects using decorators",
+	"devDependencies": {
+		"@types/node": "^22.10",
+		"typescript": "^5.6"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"exports": {
+		"import": "./esm/collection.js",
+		"require": "./cjs/collection.js"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"*/*.d.ts",
+		"*/*.js"
+	],
+	"homepage": "https://it.rocks",
+	"keywords": [
+		"backend",
+		"class",
+		"collection",
+		"decorator",
+		"it.rocks",
+		"management"
+	],
+	"license": "ISC",
+	"name": "@itrocks/collection",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itrocks-ts/collection.git"
+	},
+	"scripts": {
+		"build": "npm run build:cjs && npm run build:esm",
+		"build:cjs": "tsc -p tsconfig.cjs.json",
+		"build:esm": "tsc -p tsconfig.esm.json"
+	},
+	"types": "./esm/collection.d.ts",
+	"version": "0.0.1"
+}
