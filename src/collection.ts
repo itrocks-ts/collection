@@ -20,3 +20,5 @@ export function decorateDefaultCollectionClasses()
 	Collection()(Map)
 	Collection()(Set)
 }
+
+export const initCollection = decorateDefaultCollectionClasses
