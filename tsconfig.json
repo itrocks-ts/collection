@@ -5,6 +5,7 @@
 		"moduleResolution": "NodeNext",
 		"module": "NodeNext",
 		"skipLibCheck": true,
+		"sourceMap": true,
 		"strict": true,
 		"target": "ES2022"
 	},
