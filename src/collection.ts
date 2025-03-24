@@ -3,7 +3,6 @@ import { decorate, decoratorOf } from '@itrocks/decorator/class'
 
 const COLLECTION = Symbol('collection')
 
-export default Collection
 export function Collection(value = true)
 {
 	return decorate(COLLECTION, value)
