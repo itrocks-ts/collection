@@ -1,5 +1,6 @@
-import { ObjectOrType }          from '@itrocks/class-type'
-import { decorate, decoratorOf } from '@itrocks/decorator/class'
+import { ObjectOrType } from '@itrocks/class-type'
+import { decorate }     from '@itrocks/decorator/class'
+import { decoratorOf }  from '@itrocks/decorator/class'
 
 const COLLECTION = Symbol('collection')
 
