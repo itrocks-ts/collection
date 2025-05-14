@@ -10,7 +10,7 @@
 	"description": "Identify classes containing collections of objects using decorators",
 	"devDependencies": {
 		"@types/node": "^22.10",
-		"typescript": "^5.6"
+		"typescript": "~5.8"
 	},
 	"engines": {
 		"node": ">=18"
@@ -46,5 +46,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./esm/collection.d.ts",
-	"version": "0.0.7"
+	"version": "0.0.8"
 }
