@@ -31,8 +31,12 @@
 		"class",
 		"collection",
 		"decorator",
+		"detection",
+		"init",
 		"it.rocks",
-		"management"
+		"management",
+		"runtime",
+		"utility"
 	],
 	"license": "ISC",
 	"name": "@itrocks/collection",
@@ -46,5 +50,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./esm/collection.d.ts",
-	"version": "0.0.9"
+	"version": "0.0.10"
 }
